@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ Module for flask app with multiple languages support """
 
 from flask import Flask, render_template

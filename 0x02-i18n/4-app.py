@@ -1,5 +1,7 @@
-"""  check for the locale parameter in the request and use it if it's valid
-else force default locale """
+#!/usr/bin/env python3
+""" check for the locale parameter in the request and use it if it's valid 
+    else force default locale
+"""
 
 from flask import Flask, render_template, request
 from flask_babel import Babel, _

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ determining requested language best match with supported languages """
 
 from flask import Flask, render_template, request

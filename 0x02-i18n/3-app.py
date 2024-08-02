@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ use the _ function (an alias for gettext) for parameterizing text.
 """
 

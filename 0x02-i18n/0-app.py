@@ -1,9 +1,13 @@
+""" Module for basic flask app setup """
+
 from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def index():
+    ''' Home url '''
     return render_template('0-index.html')
 
 

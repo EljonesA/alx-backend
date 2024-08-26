@@ -6,7 +6,7 @@ const queue = kue.createQueue();
 // Define job data
 const jobData = {
 	phoneNumber: '123-456-7890',
-	message: 'Hello from Kue!'
+	message: 'This is the code to verify your account'
 };
 
 // Create a job in the 'push_notification_code' queue
